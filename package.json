@@ -4,6 +4,7 @@
   "main": "index.js",
   "author": "pandaCure <zzyamor@163.com>",
   "license": "MIT",
+  "repository": "https://github.com/pandaCure/test-lerna.git",
   "devDependencies": {
     "@commitlint/cli": "^8.2.0",
     "@commitlint/config-angular": "^8.2.0",
