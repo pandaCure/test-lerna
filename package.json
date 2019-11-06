@@ -1,0 +1,38 @@
+{
+  "name": "test-lerna-log",
+  "version": "1.0.0",
+  "main": "index.js",
+  "author": "pandaCure <zzyamor@163.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@commitlint/cli": "^8.2.0",
+    "@commitlint/config-angular": "^8.2.0",
+    "commitizen": "^4.0.3",
+    "cz-conventional-changelog": "3.0.2",
+    "husky": "^3.0.9",
+    "lerna": "^3.16.4",
+    "lerna-changelog": "^0.8.2"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
+  },
+  "changelog": {
+    "labels": {
+      "feat": ":rocket: New Feature",
+      "bug": ":bug: Bug Fix",
+      "doc": ":memo: Documentation",
+      "internal": ":house: Internal",
+      "breaking": ":boom: Breaking Change"
+    }
+  },
+  "scripts": {
+    "a": "commitizen init cz-conventional-changelog --yarn --dev --exact -W"
+  },
+  "config": {
+    "commitizen": {
+      "path": "./node_modules/cz-conventional-changelog"
+    }
+  }
+}
