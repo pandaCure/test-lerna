@@ -29,7 +29,9 @@
     }
   },
   "scripts": {
-    "a": "commitizen init cz-conventional-changelog --yarn --dev --exact -W"
+    "a": "commitizen init cz-conventional-changelog --yarn --dev --exact -W",
+    "b": "lerna-changelog",
+    "c":"lerna version"
   },
   "config": {
     "commitizen": {
