@@ -1,7 +1,8 @@
-'use strict';
+'use strict'
 
-module.exports = convertTime;
+module.exports = convertTime
 
 function convertTime() {
-    // TODO
+  // TODO
+  console.log(1)
 }
